@@ -16,4 +16,4 @@ class PostList extends Component {
   }
 }
 
-export default connect(null, { fetchPost: fetchPosts })(PostList) 
+export default connect(null, { fetchPosts: fetchPosts })(PostList) 
